@@ -11,4 +11,7 @@ describe('String#word_count') do
   it("returns how many words match in the fed in string") do
     expect(("Peter").word_count("If Peter Piper picked a peck of pickled peppers, where's the peck of pickled peppers Peter Piper picked?")).to(eq(2))
   end
+  it("returns how many words match in the fed in string even when matching words have punctuation next to them") do
+    expect(("Peter").word_count("if.peter, piper picked ;peter;peter")).to(eq(3))
+  end
 end
