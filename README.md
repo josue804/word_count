@@ -16,7 +16,11 @@ _Word Counter receives two inputs from the user: a single word and a body of tex
 
 ## Technologies Used
 
-_Word Counter's backend methods are written in Ruby and the error checking is done by rspec. Sinatra is used for the local hosting of the app._
+_Ruby 2.2.0_
+_Bootstrap for styling_
+_rspec for testing_
+_Sinatra for local hosting_
+_Heroku for deployment- ADDRESS: mysterious-scrubland-3223.herokuapp.com_
 
 ### Legal
 
