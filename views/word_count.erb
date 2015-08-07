@@ -1,4 +1,8 @@
+<%if !@word_to_count.empty?() %>
 <h2><%= @word_to_count.capitalize() %> appears <div class="jv-count"> <%= @count %> </div> times in your text!</h2>
+<%else %>
+<h2>Please enter a valid word!</h2>
+<% end %>
 <form action='/'>
   <div class="jv-return">
     <button class="btn-success jv-btn" type="submit">Try Again!</button>
