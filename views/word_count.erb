@@ -1,1 +1,6 @@
-<h2><%= @word_to_count.capitalize() %> appears <%= @count %>  times in your text!</h2>
+<h2><%= @word_to_count.capitalize() %> appears <div class="jv-count"> <%= @count %> </div> times in your text!</h2>
+<form action='/'>
+  <div class="jv-return">
+    <button class="btn-success jv-btn" type="submit">Try Again!</button>
+  </div>
+</form>
