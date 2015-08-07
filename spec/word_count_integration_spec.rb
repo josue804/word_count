@@ -13,6 +13,6 @@ describe('the word count process', {:type => :feature}) do
     fill_in('word_to_count', :with => "Peter")
     fill_in('words_to_match_to', :with => "If Peter Piper picked a peck of pickled peppers, where's the peck of pickled peppers Peter Piper picked?")
     click_button('Count Away!')
-    expect(page).to have_content("Peter appears 2 times in your text!")
+    expect(page).to have_content("Peter appears 2 time(s) in your text!")
   end
 end
