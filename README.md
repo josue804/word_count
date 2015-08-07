@@ -12,7 +12,7 @@ _Word Counter receives two inputs from the user: a single word and a body of tex
 
 * _run [$ bundle install] to install Ruby Gems_
 * _run [$ rubby app.rb] to run application locally_
-* _go to [localhost:STAGE] to view local application_
+* _go to [localhost:STAGE] in your browser to load local application_
 
 ## Technologies Used
 
@@ -20,7 +20,8 @@ _Ruby 2.2.0_
 _Bootstrap for styling_
 _rspec for testing_
 _Sinatra for local hosting_
-_Heroku for deployment- ADDRESS: mysterious-scrubland-3223.herokuapp.com_
+_Heroku for deployment_
+_HEROKU ADDRESS: mysterious-scrubland-3223.herokuapp.com_
 
 ### Legal
 
