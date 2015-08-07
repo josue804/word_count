@@ -1,11 +1,10 @@
 class String
   define_method(:word_count) do |words_to_match|
-    word_to_match_to = self.upcase!()
-    words_to_match.upcase!()
+    words_to_match.gsub!(/\W+/, ' ')
     count = 0
 
-    words_to_match.split(" ").each() do |word|
-      if word_to_match_to.eql?(word)
+    words_to_match.upcase().split(" ").each() do |word|
+      if upcase().include?(word)
         count += 1
       end
     end
