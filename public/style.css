@@ -1,0 +1,35 @@
+.jv-form input {
+  display:block;
+  width:100%;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 6em;
+  text-align: center;
+}
+
+.jv-input {
+  font-size: 2em;
+}
+
+.jv-btn {
+  font-size: 2em;
+  padding: 1em;
+}
+
+h2 {
+  line-height: 500px;
+  font-size:5em;
+  text-align: center;
+}
+
+.jv-count {
+  display: inline;
+  color: #4775FF;
+}
+
+.jv-return {
+  text-align: center;
+  margin-top: -10%;
+}
